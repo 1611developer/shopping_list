@@ -8,13 +8,13 @@ const App = () => {
 	const [items, setItems] = useState([
 
 		//prepopulate for testing
-		// { itemName: "item 1", quantity: 1, isSelected: false },
-		// { itemName: "item 2", quantity: 3, isSelected: true },
-		// { itemName: "item 3", quantity: 2, isSelected: false },
+		 { itemName: "apples", quantity: 2, isSelected: true },
+		 { itemName: "oranges", quantity: 3, isSelected: true },
+		 { itemName: "loaf of bread", quantity: 1, isSelected: false },
 	]);
 
 	const [inputValue, setInputValue] = useState('');
-	const [totalItemCount, setTotalItemCount] = useState(0);
+	const [totalItemCount, setTotalItemCount] = useState('6');
 
 	//prepopulate for testing
 	// const [totalItemCount, setTotalItemCount] = useState(6);
